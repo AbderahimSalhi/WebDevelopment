@@ -1,0 +1,18 @@
+#A python program that uses the Turtle Module to draw different shapes and designs
+#The follwing code will draw a sun shape polygon
+
+import turtle
+
+sides = range(66)
+t = turtle.Turtle()
+t.color("gold")
+t.width(1)
+t.speed(0)
+t.penup()
+t.back(120)
+t.pendown()
+
+for side in sides:
+    t.forward(300)
+    t.right(170)
+
